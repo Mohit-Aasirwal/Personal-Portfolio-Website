@@ -11,7 +11,7 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className=" z-50 fixed my-10 w-full  h-20">
+    <nav className=" z-50 fixed my-10 w-full h-20">
       {/* <GitHub/> */}
       <ul className="bg-primary w-3/4 mx-auto flex flex-row rounded-xl justify-center py-6 items-center">
         {links.map((link, index) => (

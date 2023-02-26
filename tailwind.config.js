@@ -12,14 +12,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Itim: ['Itim-Regular', "sans-serif"],
+        Itim: ["Itim-Regular", "sans-serif"],
       },
       colors: {
         primary: "#262424",
         secondaryblack: "#0C0C0C",
         white: "#D9D9D9",
         darkblack: "#000000",
-        greyish: "#A0A0A0"
+        greyish: "#A0A0A0",
+        button: "#2A2A2A",
       },
     },
     plugins: [],
