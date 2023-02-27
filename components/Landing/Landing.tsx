@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 import Navbar from "../Navbar/Navbar";
 import FrontSVG from "../../assets/SVG/frontsvg";
 import Star from "../../assets/SVG/star";
@@ -33,9 +34,23 @@ const Landing = () => {
             - Rational Thinker
           </p>
           <div className="flex flex-row my-20 justify-start items-center">
-            <Github width={50} height={50} className={`mr-5 hover:-translate-y-2 cursor-pointer`} />
-            <LinkedIn width={50} height={50} className={`mx-5 hover:-translate-y-2 cursor-pointer`} />
-            <Twitter width={50} height={50} className={`mx-5 hover:-translate-y-2 cursor-pointer`} />
+            {/* <Link href='www.github.com/Mohit-Aasirwal'> */}
+              <Github
+                width={50}
+                height={50}
+                className={`mr-5 hover:-translate-y-2 cursor-pointer`}
+              />
+            {/* </Link> */}
+            <LinkedIn
+              width={50}
+              height={50}
+              className={`mx-5 hover:-translate-y-2 cursor-pointer`}
+            />
+            <Twitter
+              width={50}
+              height={50}
+              className={`mx-5 hover:-translate-y-2 cursor-pointer`}
+            />
           </div>
         </div>
       </div>

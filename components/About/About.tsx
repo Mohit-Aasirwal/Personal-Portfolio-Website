@@ -8,7 +8,7 @@ const About = () => {
       <div className="w-2/3 my-20 flex flex-col ">
         <div className="flex justify-center items-center mb-16">
           <StarMoon width={40} height={40} className={``} />
-          <h1 className="font-['Encode Sans SC'] mx-5 font-light text-5xl ">
+          <h1 className="uppercase font-['Encode Sans SC'] mx-5 font-light text-5xl ">
             About Me
           </h1>
         </div>
