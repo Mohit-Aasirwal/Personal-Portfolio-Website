@@ -1,6 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Itim&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inder&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Encode+Sans+SC&display=swap");
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -152,4 +152,8 @@ a {
 
 .specialdiv3 {
   clip-path: ellipse(70% 45% at 50% 50%);
+}
+
+.specialdiv4 {
+  clip-path: ellipse(100% 50% at 0% 50%);
 }
