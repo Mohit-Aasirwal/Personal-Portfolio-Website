@@ -16,13 +16,14 @@ const Landing = () => {
       <Navbar />
       <div id="Home" className="flex flex-row h-screen bg-secondaryblack  ">
         <div className="w-2/3 specialdiv bg-darkblack">
-          <Setup/>
+          {/* <Setup/> */}
           <Image
             src={"/profile.png"}
             alt="profile"
-            width={500}
-            height={500}
-            className={``}
+            width={550}
+            height={550}
+            className={`z-auto`}
+            loading="lazy"
           />
         </div>
         <div className="w-1/3 ">
