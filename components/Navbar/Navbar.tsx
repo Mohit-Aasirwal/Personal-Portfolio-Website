@@ -2,11 +2,11 @@ import { GetServerSideProps } from "next";
 import React from "react";
 import GitHub from "../../assets/SVG/github";
 const links = [
-  { name: "Home", link: "/" },
-  { name: "About", link: "/" },
-  { name: "Skills", link: "/" },
-  { name: "Experience", link: "/" },
-  { name: "Contact", link: "/" },
+  { name: "Home", link: "#Home" },
+  { name: "About", link: "#About" },
+  { name: "Skills", link: "#Skills" },
+  { name: "Experience", link: "#Experience" },
+  { name: "Resume", link: "#Resume" },
 ];
 
 const Navbar = () => {

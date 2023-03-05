@@ -4,11 +4,11 @@ import Star from "../../assets/SVG/star";
 import Starcollection from "../../assets/SVG/starcollection";
 const About = () => {
   return (
-    <div className="flex flex-row bg-secondaryblack">
+    <div id="About" className="flex flex-row bg-secondaryblack">
       <div className="w-2/3 my-20 flex flex-col ">
         <div className="flex justify-center items-center mb-16">
           <StarMoon width={40} height={40} className={``} />
-          <h1 className="uppercase font-['Encode Sans SC'] mx-5 text-5xl ">
+          <h1 className="uppercase font-['Encode Sans SC'] mx-5 text-5xl first-letter:text-6xl">
             About Me
           </h1>
         </div>

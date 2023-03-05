@@ -1,5 +1,6 @@
 import React from "react";
 import Link from "next/link";
+import Image from "next/image";
 import Navbar from "../Navbar/Navbar";
 import FrontSVG from "../../assets/SVG/frontsvg";
 import Star from "../../assets/SVG/star";
@@ -7,13 +8,23 @@ import StarCollection from "../../assets/SVG/starcollection";
 import Github from "../../assets/SVG/github";
 import LinkedIn from "../../assets/SVG/linkedin";
 import Twitter from "../../assets/SVG/twitter";
+import Setup from "../../assets/microinteractions/sphere";
 
 const Landing = () => {
   return (
     <>
       <Navbar />
-      <div className="flex flex-row h-screen bg-secondaryblack  ">
-        <div className="w-2/3 specialdiv bg-darkblack"></div>
+      <div id="Home" className="flex flex-row h-screen bg-secondaryblack  ">
+        <div className="w-2/3 specialdiv bg-darkblack">
+          <Setup/>
+          <Image
+            src={"/profile.png"}
+            alt="profile"
+            width={500}
+            height={500}
+            className={``}
+          />
+        </div>
         <div className="w-1/3 ">
           <StarCollection
             width={50}
@@ -34,23 +45,30 @@ const Landing = () => {
             - Rational Thinker
           </p>
           <div className="flex flex-row my-20 justify-start items-center">
-            {/* <Link href='www.github.com/Mohit-Aasirwal'> */}
+            <Link href="https://www.github.com/Mohit-Aasirwal" target="_blank">
               <Github
                 width={50}
                 height={50}
                 className={`mr-5 hover:-translate-y-2 cursor-pointer`}
               />
-            {/* </Link> */}
-            <LinkedIn
-              width={50}
-              height={50}
-              className={`mx-5 hover:-translate-y-2 cursor-pointer`}
-            />
-            <Twitter
-              width={50}
-              height={50}
-              className={`mx-5 hover:-translate-y-2 cursor-pointer`}
-            />
+            </Link>
+            <Link
+              href="https://www.linkedin.com/in/mohit-aasirwal-478466223"
+              target="_blank"
+            >
+              <LinkedIn
+                width={50}
+                height={50}
+                className={`mx-5 hover:-translate-y-2 cursor-pointer`}
+              />
+            </Link>
+            <Link href="https://www.twitter.com/AasirwalMohit" target="_blank">
+              <Twitter
+                width={50}
+                height={50}
+                className={`mx-5 hover:-translate-y-2 cursor-pointer`}
+              />
+            </Link>
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const Endorsements = () => {
   return (
     <div className="h-fit flex flex-col bg-secondaryblack">
       <div className="text-center">
-        <h1 className="uppercase font-[Encode Sans SC] text-5xl w-full text-center">
+        <h1 className="uppercase font-[Encode Sans SC] text-5xl w-full text-center first-letter:text-6xl">
           Endorsements
         </h1>
         <Starcollection

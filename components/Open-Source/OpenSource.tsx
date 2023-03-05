@@ -8,7 +8,7 @@ const OpenSource = () => {
       <div className="w-1/3 h-screen specialdiv4 bg-darkblack"></div>
       <div className="w-2/3 h-screen flex">
         <Astronomer height={100} width={100} className={`my-10 opacity-40`} />
-        <h1 className="uppercase font-['Encode Sans SC'] text-5xl px-56 w-full">
+        <h1 className="uppercase font-['Encode Sans SC'] text-5xl px-56 w-full first-letter:text-6xl">
           Open-Source
         </h1>
       </div>
