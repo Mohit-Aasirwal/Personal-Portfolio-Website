@@ -14,8 +14,13 @@ const Landing = () => {
   return (
     <>
       <Navbar />
-      <div id="Home" className="flex flex-row h-screen bg-secondaryblack  ">
-        <div className="w-2/3 specialdiv bg-darkblack">
+      <div
+        id="Home"
+        className="md:flex md:flex-row md:h-screen  bg-secondaryblack  "
+      >
+        <div
+          className="md:w-2/3 specialdiv bg-darkblack"
+        >
           {/* <Setup/> */}
           <Image
             src={"/profile.png"}
@@ -26,7 +31,7 @@ const Landing = () => {
             loading="lazy"
           />
         </div>
-        <div className="w-1/3 ">
+        <div className="md:w-1/3 sm:flex">
           <StarCollection
             width={50}
             height={50}
