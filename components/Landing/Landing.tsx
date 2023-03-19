@@ -1,7 +1,5 @@
-import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Navbar from "../Navbar/Navbar";
 import FrontSVG from "../../assets/SVG/frontsvg";
 import Star from "../../assets/SVG/star";
 import StarCollection from "../../assets/SVG/starcollection";
@@ -13,14 +11,11 @@ import Setup from "../../assets/microinteractions/sphere";
 const Landing = () => {
   return (
     <>
-      <Navbar />
       <div
         id="Home"
-        className="md:flex md:flex-row md:h-screen  bg-secondaryblack  "
+        className="md:flex md:flex-row md:h-screen flex flex-col bg-secondaryblack"
       >
-        <div
-          className="md:w-2/3 specialdiv bg-darkblack"
-        >
+        <div className="md:w-2/3 specialdiv bg-darkblack">
           {/* <Setup/> */}
           <Image
             src={"/profile.png"}
@@ -31,26 +26,28 @@ const Landing = () => {
             loading="lazy"
           />
         </div>
-        <div className="md:w-1/3 sm:flex">
+        <div className="md:w-1/3 flex flex-col md:mt-20 text-center md:text-left">
           <StarCollection
             width={50}
             height={50}
-            className={`absolute bottom-32 right-[35rem]`}
+            className={`relative top-96 left-80 md:absolute md:top-[35rem] md:left-[45rem]`}
           />
           {/* <FrontSVG height={100} width={866} /> */}
-          <Star height={50} width={50} className={`mt-36 ml-72`} />
-          <h1 className="font-['Itim'] font-light text-7xl">Hola!</h1>
+          <Star height={50} width={50} className={`mx-72`} />
+          <h1 className="font-['Itim']  font-light text-7xl">Hola!</h1>
           <h1 className="font-['Itim'] font-light text-7xl mb-14">Soy Mohit</h1>
-          <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
-            - Cosmology Stan
-          </p>
-          <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
-            - Full Stack Developer
-          </p>
-          <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
-            - Rational Thinker
-          </p>
-          <div className="flex flex-row my-20 justify-start items-center">
+          <div className="flex flex-col">
+            <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
+              - Cosmology Stan
+            </p>
+            <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
+              - Full Stack Developer
+            </p>
+            <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
+              - Rational Thinker
+            </p>
+          </div>
+          <div className="flex flex-row my-20 justify-start items-center mx-auto sm:mx-0">
             <Link href="https://www.github.com/Mohit-Aasirwal" target="_blank">
               <Github
                 width={50}

@@ -14,16 +14,16 @@ import Footer from "../components/Footer/Footer";
 export default function Home() {
   return (
     <>
-        <Landing />
-        <About />
-        <Skills />
-        <Projects />
-        <OpenSource />
-        <Achievements />
-        <Endorsements />
-        <Resume />
-        <Footer />
-
+      <Navbar />
+      <Landing />
+      <About />
+      <Skills />
+      <Projects />
+      <OpenSource />
+      <Achievements />
+      <Endorsements />
+      <Resume />
+      <Footer />
     </>
   );
 }

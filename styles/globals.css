@@ -146,21 +146,23 @@ a {
   border-radius: 5px;
 }
 
-.specialdiv {
-  clip-path: ellipse(85% 70% at 0% 50%);
-}
+@media screen and (min-width: 426px) {
+  .specialdiv {
+    clip-path: ellipse(85% 70% at 0% 50%);
+  }
 
-.specialdiv2 {
-  clip-path: ellipse(150% 50% at 150% 50%);
-}
+  .specialdiv2 {
+    clip-path: ellipse(150% 50% at 150% 50%);
+  }
 
-.specialdiv3 {
-  clip-path: ellipse(70% 45% at 50% 50%);
-}
+  .specialdiv3 {
+    clip-path: ellipse(70% 45% at 50% 50%);
+  }
 
-.specialdiv4 {
-  clip-path: ellipse(100% 50% at 0% 50%);
-}
-.specialdiv5 {
-  clip-path: polygon(100% 72%, 100% 100%, 64% 100%, 0 51%, 0 0);
+  .specialdiv4 {
+    clip-path: ellipse(100% 50% at 0% 50%);
+  }
+  .specialdiv5 {
+    clip-path: polygon(100% 72%, 100% 100%, 64% 100%, 0 51%, 0 0);
+  }
 }
