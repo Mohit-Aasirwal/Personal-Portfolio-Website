@@ -31,10 +31,10 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col justify-center items-center my-10">
-        <p className="font-[Encode Sans SC] uppercase first-letter:font-bold text-lg">
+        <p className="font-[Encode Sans SC] uppercase text-center first-letter:font-bold text-lg">
           Made with Love and Code
         </p>
-        <p className="font-[Encode Sans SC] uppercase first-letter:font-bold text-lg">
+        <p className="font-[Encode Sans SC] uppercase first-letter:font-bold text-center text-lg">
           by nextjs, typescript, tailwindcss and strapicms
         </p>
         <p className="font-[Encode Sans SC] uppercase text-xs mt-3">
