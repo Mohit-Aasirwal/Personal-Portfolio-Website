@@ -7,7 +7,7 @@ const About = () => {
     <div id="About" className="flex flex-row bg-secondaryblack">
       <div className="md:w-2/3 my-20 flex flex-col ">
         <div className="md:flex md:justify-center md:items-center md:mb-16">
-          <StarMoon width={40} height={40} className={`mx-10 md:mx-0`} />
+          <StarMoon width={40} height={40} className={`mx-10 mb-10 md:mb-0 md:mx-0`} />
           <h1 className="uppercase font-['Encode Sans SC'] md:mx-5 mx-10 text-5xl first-letter:text-6xl">
             About Me
           </h1>

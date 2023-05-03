@@ -15,7 +15,7 @@ const Landing = () => {
         id="Home"
         className="md:flex md:flex-row md:h-screen flex flex-col bg-secondaryblack"
       >
-        <div className="md:w-2/3 specialdiv bg-darkblack">
+        <div className="md:w-2/3 flex items-end specialdiv bg-darkblack">
           {/* <Setup/> */}
           <Image
             src={"/profile.png"}
@@ -25,12 +25,17 @@ const Landing = () => {
             className={`z-auto`}
             loading="lazy"
           />
+          <StarCollection
+            width={50}
+            height={50}
+            className={`hidden md:flex md:text-xl`}
+          />
         </div>
         <div className="md:w-1/3 flex flex-col md:mt-20 text-center md:text-left">
           <StarCollection
             width={50}
             height={50}
-            className={`relative top-96 left-80 md:absolute md:top-[35rem] md:left-[45rem]`}
+            className={`relative top-96 left-80 md:hidden`}
           />
           {/* <FrontSVG height={100} width={866} /> */}
           <Star height={50} width={50} className={`mx-72`} />

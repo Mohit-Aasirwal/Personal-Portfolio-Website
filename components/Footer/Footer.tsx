@@ -6,7 +6,7 @@ import Twitter from "../../assets/SVG/twitter";
 
 const Footer = () => {
   return (
-    <div className="flex bg-darkblack mt-10 flex-col w-full h-fit">
+    <div id="Footer" className="flex bg-darkblack mt-10 flex-col w-full h-fit">
       <div className="items-center justify-center flex flex-row">
         <Link
           href="https://www.github.com/Mohit-Aasirwal"
@@ -31,11 +31,11 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col justify-center items-center my-10">
-        <p className="font-[Encode Sans SC] uppercase text-center first-letter:font-bold text-lg">
+        <p className="font-[Encode Sans SC] uppercase text-center first-letter:font-bold text-xs">
           Made with Love and Code
         </p>
-        <p className="font-[Encode Sans SC] uppercase first-letter:font-bold text-center text-lg">
-          by nextjs, typescript, tailwindcss and strapicms
+        <p className="font-[Encode Sans SC]  text-center text-xs">
+          by NextJS, TypeScript, TailwindCSS and StrapiCMS
         </p>
         <p className="font-[Encode Sans SC] uppercase text-xs mt-3">
           &copy; Mohit Aasirwal 2023 - All Rights Reserved

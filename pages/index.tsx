@@ -8,6 +8,7 @@ import Achievements from "../components/Achievements/Achievements";
 import Endorsements from "../components/Endorsements/Endorsements";
 import Resume from "../components/Resume/Resume";
 import Footer from "../components/Footer/Footer";
+import Drawer from "../components/Navbar/Drawer";
 
 //specialdiv properties are mentioned in globals.css
 
@@ -15,6 +16,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <Drawer />
       <Landing />
       <About />
       <Skills />
