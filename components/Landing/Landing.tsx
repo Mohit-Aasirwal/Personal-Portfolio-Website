@@ -20,28 +20,27 @@ const Landing = () => {
           <Image
             src={"/profile.png"}
             alt="profile"
-            width={550}
-            height={550}
+            width={450}
+            height={450}
             className={`z-auto`}
             loading="lazy"
-          />
-          <StarCollection
-            width={50}
-            height={50}
-            className={`hidden md:flex md:text-xl`}
           />
         </div>
         <div className="md:w-1/3 flex flex-col md:mt-20 text-center md:text-left">
           <StarCollection
             width={50}
             height={50}
-            className={`relative top-96 left-80 md:hidden`}
+            className={`relative top-96 -right-3 md:absolute md:right-56 md:top-3/4 md:left-[30rem]`}
           />
           {/* <FrontSVG height={100} width={866} /> */}
-          <Star height={50} width={50} className={`mx-72`} />
-          <h1 className="font-['Itim']  font-light text-7xl">Hola!</h1>
-          <h1 className="font-['Itim'] font-light text-7xl mb-14">Soy Mohit</h1>
-          <div className="flex flex-col">
+          <Star
+            height={50}
+            width={50}
+            className={`mx-72 md:relative md:top-10 md:left-40 md:mx-0 z-10`}
+          />
+          <h1 className="font-['Itim']  font-light text-6xl">Hola!</h1>
+          <h1 className="font-['Itim'] font-light text-6xl mb-14">Soy Mohit</h1>
+          <div className="flex flex-col justify-center">
             <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
               - Cosmology Stan
             </p>

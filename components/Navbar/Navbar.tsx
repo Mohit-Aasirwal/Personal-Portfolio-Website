@@ -11,12 +11,12 @@ const links = [
 
 const Navbar = () => {
   return (
-    <nav className=" z-50 hidden sm:flex fixed my-10 w-full shadow-inner h-20">
+    <nav className=" z-50 hidden sm:flex fixed my-10 w-full shadow-inner h-16">
       {/* <GitHub/> */}
-      <ul className="bg-primary w-3/4 mx-auto flex flex-row rounded-xl justify-center py-6 items-center">
+      <ul className="bg-primary w-fit mx-auto flex flex-row rounded-xl justify-center py-6 items-center">
         {links.map((link, index) => (
           <li
-            className="text-white text-2xl font-normal tracking-wide mx-10 hover:text-black delay-75"
+            className="text-white text-xl font-normal tracking-wide mx-10 hover:text-black delay-75"
             key={index}
           >
             <a href={link.link} className='font-["Itim"]'>
