@@ -9,7 +9,7 @@ const About = () => {
       id="About"
       className="flex h-fit md:h-screen flex-row bg-secondaryblack"
     >
-      <div className="md:w-2/3 my-20 flex flex-col ">
+      <div className="md:w-2/3 my-20 flex flex-col lg:my-auto lg:space-y-5 xl:space-y-10 ">
         <div className="md:flex md:justify-center md:items-center md:mb-16">
           <StarMoon
             width={40}
@@ -21,7 +21,7 @@ const About = () => {
           </h1>
         </div>
         <div className="flex">
-          <p className="font-['Inder'] text-greyish md:text-md text-lg w-2/3 md:mx-20 md:-my-10 my-10 mx-auto">
+          <p className="font-['Inder'] text-greyish md:text-md text-lg w-2/3 md:mx-20 md:-my-10 my-10 mx-auto lg:mb-10">
             ♦ I am very curious and highly passionate about astronomy and trying
             to implement it in technological aspects. <br /> <br /> ♦ I am
             acquired with latest technologies needed for modern software
@@ -36,9 +36,12 @@ const About = () => {
           />
         </div>
         {/* <Star height={55} width={55} className={``} /> */}
-        <button className="font-['Inder'] font-medium bg-button py-3 px-5 text-lg rounded-2xl md:mx-20 mx-10 md:my-12 inline-flex w-fit">
-         <Link href={"https://www.github.com/Mohit-Aasirwal"}> Learn More {`>`}{" "}
-         </Link> </button>
+        <button className="font-['Inder'] font-medium bg-button py-3 px-5 text-lg rounded-2xl md:mx-20 mx-10 md:my-20 inline-flex w-fit">
+          <Link href={"https://www.github.com/Mohit-Aasirwal"}>
+            {" "}
+            Learn More {`>`}{" "}
+          </Link>{" "}
+        </button>
         <Starcollection
           width={50}
           height={50}

@@ -13,21 +13,21 @@ const Footer = () => {
           className="mx-10"
           target={"_blank"}
         >
-          <Github height={50} width={50} className={``} />
+          <Github height={50} width={50} className={`w-10 h-10`} />
         </Link>
         <Link
           href="https://www.linkedin.com/in/mohit-aasirwal-478466223"
           target={"_blank"}
           className="mx-10"
         >
-          <Linkedin height={50} width={50} className={``} />
+          <Linkedin height={50} width={50} className={`w-10 h-10`} />
         </Link>
         <Link
           href="https://www.twitter.com/AasirwalMohit"
           target={"_blank"}
           className="mx-10"
         >
-          <Twitter height={50} width={50} className={``} />
+          <Twitter height={50} width={50} className={`w-10 h-10`} />
         </Link>
       </div>
       <div className="flex flex-col justify-center items-center my-10">

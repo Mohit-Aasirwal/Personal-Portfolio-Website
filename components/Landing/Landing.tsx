@@ -18,19 +18,20 @@ const Landing = () => {
         <div className="md:w-2/3 flex items-end specialdiv bg-darkblack">
           {/* <Setup/> */}
           <Image
+            priority
             src={"/profile.png"}
             alt="profile"
             width={450}
             height={450}
-            className={`z-auto`}
-            loading="lazy"
+            className={`z-auto xl:w-4/6`}
+            // loading="lazy"
           />
         </div>
-        <div className="md:w-1/3 flex flex-col md:mt-20 text-center md:text-left">
+        <div className="md:w-1/3 flex flex-col md:mt-20 xl:my-auto lg:mt-32 text-center md:text-left">
           <StarCollection
             width={50}
             height={50}
-            className={`relative top-96 -right-3 md:absolute md:right-56 md:top-3/4 md:left-[30rem]`}
+            className={`relative top-96 -right-3 md:absolute md:right-56 md:top-3/4 xl:left-[52rem] lg:left-[35rem] md:left-[27rem]`}
           />
           {/* <FrontSVG height={100} width={866} /> */}
           <Star
