@@ -7,13 +7,28 @@ import Github from "../../assets/SVG/github";
 import LinkedIn from "../../assets/SVG/linkedin";
 import Twitter from "../../assets/SVG/twitter";
 import Setup from "../../assets/microinteractions/sphere";
+// import Script from "next/script";
+import { gsap } from "gsap";
+import { useEffect } from "react";
+import Sphere from "../../assets/models/Sphere";
 
 const Landing = () => {
+  useEffect(() => {
+    // Initialize GSAP here
+    // Example animation using GSAP
+    gsap.fromTo(
+      ".home",
+      { opacity: 0, scale: 0.5 },
+      { opacity: 1, duration: 1, delay: 1, stagger: 0.5, scale: 1 }
+    );
+    // gsap.to(".home", { opacity: 1 });
+  }, []);
+
   return (
     <>
       <div
         id="Home"
-        className="md:flex md:flex-row md:h-screen flex flex-col bg-secondaryblack"
+        className="md:flex md:flex-row md:h-screen flex flex-col bg-secondaryblack home"
       >
         <div className="md:w-2/3 flex items-end specialdiv bg-darkblack">
           {/* <Setup/> */}
@@ -26,6 +41,7 @@ const Landing = () => {
             className={`z-auto xl:w-4/6`}
             // loading="lazy"
           />
+          {/* <Sphere/> */}
         </div>
         <div className="md:w-1/3 flex flex-col md:mt-20 xl:my-auto lg:mt-32 text-center md:text-left">
           <StarCollection
@@ -80,6 +96,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
+      {/* <Script src="../../assets/microinteractions/LandingAnimation.js" defer /> */}
     </>
   );
 };

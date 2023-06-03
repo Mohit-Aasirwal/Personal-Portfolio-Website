@@ -21,7 +21,7 @@ const About = () => {
           </h1>
         </div>
         <div className="flex">
-          <p className="font-['Inder'] text-greyish md:text-md text-lg w-2/3 md:mx-20 md:-my-10 my-10 mx-auto lg:mb-10">
+          <p className="font-['Inder'] text-greyish md:text-md text-lg w-2/3 md:mx-20 md:-my-10 my-10 mx-auto lg:mb-10 xl:text-2xl">
             ♦ I am very curious and highly passionate about astronomy and trying
             to implement it in technological aspects. <br /> <br /> ♦ I am
             acquired with latest technologies needed for modern software
@@ -48,7 +48,7 @@ const About = () => {
           className={`relative bottom-20 left-2/3`}
         />
       </div>
-      <div className="specialdiv2 h-screen hidden md:block md:w-1/3 bg-darkblack"></div>
+      <div className="specialdiv2 h-screen hidden md:flex md:w-1/3 bg-darkblack"></div>
     </div>
   );
 };
