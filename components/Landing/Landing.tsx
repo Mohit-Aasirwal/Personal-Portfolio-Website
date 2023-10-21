@@ -36,7 +36,7 @@ const Landing = () => {
           <Image
             priority
             src={
-              "https://media2.giphy.com/media/tZqBZPEPUrzuUIELIV/giphy.gif?cid=ecf05e47wr850p5obp6a3ujjymsij2zdkm8ivqpv8isjuy5b&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+              "https://media3.giphy.com/media/eJmUEoeU1K4d4IUbpS/giphy.gif?cid=ecf05e47huqlrtvomsumywgvju8rcaauoq5nsfy6dacmtdms&ep=v1_gifs_search&rid=giphy.gif&ct=g"
             }
             alt="earth"
             width={400}
