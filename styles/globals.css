@@ -157,6 +157,7 @@ a {
 
   .specialdiv3 {
     clip-path: ellipse(70% 45% at 50% 50%);
+    background-image: url("https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47wr850p5obp6a3ujjymsij2zdkm8ivqpv8isjuy5b&ep=v1_gifs_search&rid=giphy.gif&ct=g");
   }
 
   .specialdiv4 {
@@ -164,5 +165,10 @@ a {
   }
   .specialdiv5 {
     clip-path: polygon(100% 72%, 100% 100%, 64% 100%, 0 51%, 0 0);
+  }
+}
+@media screen and (max-width: 768px) {
+  .skills {
+    background-image: url("https://media2.giphy.com/media/U3qYN8S0j3bpK/giphy.gif?cid=ecf05e47wr850p5obp6a3ujjymsij2zdkm8ivqpv8isjuy5b&ep=v1_gifs_search&rid=giphy.gif&ct=g");
   }
 }

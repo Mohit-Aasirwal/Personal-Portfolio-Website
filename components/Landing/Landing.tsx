@@ -32,16 +32,26 @@ const Landing = () => {
       >
         <div className="md:w-2/3 flex items-end specialdiv bg-darkblack">
           {/* <Setup/> */}
+          {/* <Sphere /> */}
+          <Image
+            priority
+            src={
+              "https://media2.giphy.com/media/tZqBZPEPUrzuUIELIV/giphy.gif?cid=ecf05e47wr850p5obp6a3ujjymsij2zdkm8ivqpv8isjuy5b&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+            }
+            alt="earth"
+            width={400}
+            height={400}
+            className="w-full h-fit"
+          />
           <Image
             priority
             src={"/profile.png"}
             alt="profile"
             width={450}
             height={450}
-            className={`z-auto xl:w-4/6`}
+            className={`z-auto xl:w-1/2 absolute`}
             // loading="lazy"
           />
-          {/* <Sphere/> */}
         </div>
         <div className="md:w-1/3 flex flex-col md:mt-20 xl:my-auto lg:mt-32 text-center md:text-left">
           <StarCollection

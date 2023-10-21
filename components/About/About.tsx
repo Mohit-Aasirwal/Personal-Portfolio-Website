@@ -3,6 +3,7 @@ import StarMoon from "../../assets/SVG/moonwithstar";
 import Moon from "../../assets/SVG/moon";
 import Star from "../../assets/SVG/star";
 import Starcollection from "../../assets/SVG/starcollection";
+import Image from "next/image";
 const About = () => {
   return (
     <div
@@ -48,7 +49,15 @@ const About = () => {
           className={`relative bottom-20 left-2/3`}
         />
       </div>
-      <div className="specialdiv2 h-screen hidden md:flex md:w-1/3 bg-darkblack"></div>
+      <div className="specialdiv2 h-screen hidden md:flex md:w-1/3 bg-darkblack">
+        <Image
+          src={"https://media2.giphy.com/media/xUA7aW1ddSxtVT5zzi/giphy.gif?cid=ecf05e473gqo38e4ex38qmqvqw1f38hdajaplwagnmssjb3f&ep=v1_gifs_search&rid=giphy.gif&ct=g"}
+          width={100}
+          height={100}
+          alt="space"
+          className="w-screen h-full"
+        />
+      </div>
     </div>
   );
 };

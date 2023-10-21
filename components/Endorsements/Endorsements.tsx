@@ -1,6 +1,7 @@
 import React from "react";
 import Starcollection from "../../assets/SVG/starcollection";
 import Linkedin from "../../assets/SVG/linkedin";
+import Image from "next/image";
 
 const Endorsements = () => {
   return (
@@ -15,14 +16,23 @@ const Endorsements = () => {
           className={`w-full my-20 opacity-70`}
         />
       </div>
-      <div className="specialdiv5 bg-darkblack w-full h-screen">
-        <div className="mx-10 relative">
+      <div className="specialdiv5 relative bg-darkblack w-full h-screen">
+        <div className="mx-10 absolute">
           <p className="leading-loose font-[Fasthand] text-4xl">
             get featured here
           </p>
-          <p className="inline-flex font-[Fasthand] text-2xl">endorse me</p>
+          <p className="inline-flex font-[Fasthand] text-2xl">
+            endorse my work
+          </p>
           <Linkedin width={50} height={50} className={`inline-flex mx-3`} />
         </div>
+        <Image
+          src={"https://media.tenor.com/v-8k630mSfEAAAAC/stars-space.gif"}
+          width={100}
+          height={100}
+          alt="stars"
+          className="w-full h-full"
+        />
       </div>
     </div>
   );

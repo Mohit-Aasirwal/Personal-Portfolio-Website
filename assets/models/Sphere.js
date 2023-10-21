@@ -1,10 +1,11 @@
 import React, { useRef, useEffect } from "react";
+import Image from "next/image";
 import * as THREE from "three";
+import { OrbitControls } from "three/examples/jsm/controls/OrbitControls";
+import gsap from "gsap";
 
 const Sphere = () => {
-  const canvasRef = useRef(null);
-  useEffect(() => {
-    const canvas = canvasRef.current;
+  const canvasRef = useEffect(() => {
     // Create a scene
     const scene = new THREE.Scene();
 
@@ -39,9 +40,16 @@ const Sphere = () => {
     camera.position.z = 15;
     scene.add(camera);
 
+    // const backgroundImage = new Image();
+    // backgroundImage.src = "../../public/profile.png";
+    // backgroundImage.onload = () => {
+    //   const texture = new THREE.Texture(backgroundImage);
+    //   texture.needsUpdate = true;
+    //   scene.background = texture;
+    // };
     //renderer
     // const canvas = document.querySelector(".webgl");
-    const canvasRef = useRef(null);
+    const canvas = document.querySelector("canvas");
     const renderer = new THREE.WebGLRenderer({ canvas });
     renderer.setPixelRatio(2);
     renderer.setSize(sizes.width, sizes.height);
@@ -105,7 +113,20 @@ const Sphere = () => {
     // animate();
   }, []);
 
-  return <canvas ref={canvasRef} />;
+  return (
+    <>
+      <canvas className="relative xl:mx-96" />
+      <Image
+        priority
+        src={"/profile.png"}
+        alt="profile"
+        width={450}
+        height={450}
+        className={`z-auto absolute xl:w-1/3`}
+        // loading="lazy"
+      />
+    </>
+  );
 };
 
 export default Sphere;

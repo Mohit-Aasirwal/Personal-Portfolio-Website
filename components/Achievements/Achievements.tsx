@@ -1,5 +1,6 @@
 import React from "react";
 import Satellite from "../../assets/SVG/satellite";
+import Image from "next/image";
 
 const Achievements = () => {
   return (
@@ -14,7 +15,17 @@ const Achievements = () => {
           Achievements
         </h1>
       </div>
-      <div className="specialdiv2 md:w-1/3 bg-darkblack"></div>
+      <div className="specialdiv2 md:w-1/3 bg-darkblack">
+        <Image
+          src={
+            "https://media2.giphy.com/media/xUPGcfzaX9hFFQJYre/giphy.gif?cid=ecf05e478e3ayq07b154l74yolldobfci32odttarntnjm9u&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+          }
+          width={100}
+          height={100}
+          alt="astronomer"
+          className="w-full h-full hidden md:block"
+        />
+      </div>
     </div>
   );
 };
