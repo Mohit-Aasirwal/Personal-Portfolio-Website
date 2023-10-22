@@ -52,7 +52,7 @@ const data = [
 
 const Projects = () => {
   return (
-    <>
+    <div id="Experience">
       <div className="flex h-fit flex-row bg-secondaryblack">
         <div className=" md:w-2/3 md:my-20 flex text-center flex-col ">
           <div className="flex">
@@ -65,7 +65,7 @@ const Projects = () => {
               className={`opacity-20 my-20`}
             />
           </div>
-          <div className="grid md:grid-cols-4 grid-cols-2 gap-10 mx-20">
+          <div className="grid md:grid-cols-4 grid-cols-2 gap-20 mx-10">
             {data &&
               data.map((value, id) => {
                 return (
@@ -83,7 +83,7 @@ const Projects = () => {
         <div className="specialdiv2 hidden md:block h-screen md:w-1/3 md:bg-darkblack">
           <Image
             src={
-              "https://media0.giphy.com/media/26tn6Me6pD4Bel37G/giphy.gif?cid=ecf05e472oj1o8p4uc961mr5rc1i7hopucne7oo7aa597bpb&ep=v1_gifs_search&rid=giphy.gif&ct=g"
+              "https://media0.giphy.com/media/9D58IXlnmyl1zPYZHy/giphy.gif?cid=ecf05e47sy2llaf5mbh02twngm3a7ftejm209lbtasqwcdmn&ep=v1_gifs_related&rid=giphy.gif&ct=g"
             }
             width={1000}
             height={1000}
@@ -92,7 +92,7 @@ const Projects = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

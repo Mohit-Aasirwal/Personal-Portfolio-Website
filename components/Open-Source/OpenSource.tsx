@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const OpenSource = () => {
   return (
-    <div className="flex flex-row bg-secondaryblack">
+    <div className="flex flex-row py-20 md:py-0 bg-secondaryblack">
       <div className="md:w-1/3 h-screen hidden md:block specialdiv4 md:bg-darkblack object-cover ">
         <Image
           src={

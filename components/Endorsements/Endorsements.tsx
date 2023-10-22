@@ -27,7 +27,9 @@ const Endorsements = () => {
           <Linkedin width={50} height={50} className={`inline-flex mx-3`} />
         </div>
         <Image
-          src={"https://media.tenor.com/v-8k630mSfEAAAAC/stars-space.gif"}
+          src={
+            "https://media3.giphy.com/media/30pjsLvNyaRY0eoE0b/giphy.gif?cid=ecf05e47trh8abyo7q07rc4oxcnvyz32ngsm1yobdc9unz68&ep=v1_gifs_related&rid=giphy.gif&ct=g"
+          }
           width={100}
           height={100}
           alt="stars"

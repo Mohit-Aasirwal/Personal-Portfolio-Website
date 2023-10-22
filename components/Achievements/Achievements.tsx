@@ -11,7 +11,7 @@ const Achievements = () => {
           height={50}
           className={`md:mx-10 opacity-70 w-12 h-12 md:w-28 md:h-28 `}
         />
-        <h1 className="uppercase font-[Encode Sans SC] text-white text-5xl w-full text-center first-letter:text-6xl">
+        <h1 className="uppercase font-[Encode Sans SC] text-white text-4xl mx-5 md:mx-0 md:text-5xl w-full text-center first-letter:text-6xl">
           Achievements
         </h1>
       </div>
