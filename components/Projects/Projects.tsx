@@ -4,6 +4,7 @@ import Image from "next/image";
 
 const Projects = () => {
   return (
+    <>
     <div className="flex h-screen flex-row bg-secondaryblack">
       <div className=" md:w-2/3 md:my-20 flex text-center ">
         <h1 className="uppercase font-['Encode Sans SC'] text-5xl my-20 w-full text-center mx-auto  first-letter:text-6xl">
@@ -23,6 +24,8 @@ const Projects = () => {
         />
       </div>
     </div>
+        
+    </>
   );
 };
 

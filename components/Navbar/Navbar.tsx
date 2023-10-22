@@ -16,7 +16,7 @@ const Navbar = () => {
       <ul className="bg-primary w-fit xl:px-20 mx-auto flex flex-row rounded-xl justify-center py-6 items-center">
         {links.map((link, index) => (
           <li
-            className="text-white text-xl font-normal tracking-wide mx-10 hover:text-black delay-75"
+            className="text-white text-xl font-normal tracking-wide mx-10 hover:text-blue-500 delay-75"
             key={index}
           >
             <a href={link.link} className='font-["Itim"]'>
