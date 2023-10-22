@@ -16,7 +16,7 @@ const Drawer = () => {
   };
 
   return (
-    <div className="fixed flex md:hidden">
+    <div className=" z-50 fixed flex md:hidden">
       <button
         className="text-black p-2 mx-4 my-5 rounded-full bg-white"
         onClick={handleOpen}
