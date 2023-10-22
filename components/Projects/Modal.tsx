@@ -33,7 +33,7 @@ const Modal = ({ name, image, link, description }: props) => {
         />
       </div>
       {open && (
-        <div className="md:w-2/3 w-[90%] md:rounded-3xl shadow-inner fixed shadow-black text-black top-1/4 left-5 scroll-smooth md:top-52 md:left-60 overflow-scroll z-50 bg-white h-2/3">
+        <div className="md:w-2/3 w-[90%] md:rounded-3xl select-none shadow-inner fixed shadow-black text-black top-1/4 left-5 scroll-smooth md:top-52 md:left-60 overflow-scroll md:overflow-hidden z-50 bg-white h-2/3">
           <div className="flex flex-col justify-start ">
             <div className="flex justify-between mt-8 mx-10">
               <h1 className="bg-clip-text text-transparent bg-gradient-to-tr from-slate-900 to-blue-900 md:text-3xl text-2xl font-bold">

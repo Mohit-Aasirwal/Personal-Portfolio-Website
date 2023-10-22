@@ -14,7 +14,7 @@ import Drawer from "../components/Navbar/Drawer";
 
 export default function Home() {
   return (
-    <>
+    <div className="select-none">
       <Navbar />
       <Drawer />
       <Landing />
@@ -26,6 +26,6 @@ export default function Home() {
       <Endorsements />
       <Resume />
       <Footer />
-    </>
+    </div>
   );
 }
