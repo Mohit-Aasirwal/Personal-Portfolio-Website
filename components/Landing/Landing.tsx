@@ -31,8 +31,8 @@ const Landing = () => {
         setName(response.data.data.attributes.Name);
       })
       .catch((error) => {
-        console.error("Error fetching data:", error);1
         // Handle error
+        console.error("Error fetching data:", error);
       });
     axios
       .get(url2)
@@ -108,19 +108,17 @@ const Landing = () => {
             className={`mx-72 md:relative md:top-10 md:left-40 md:mx-0 z-10`}
           />
           <h1 className="font-['Itim']  font-light text-6xl">Hola!</h1>
-          <h1 className="font-['Itim'] font-light text-6xl mb-14">
-            Soy {name}
-          </h1>
+          <h1 className="font-['Itim'] font-light text-6xl mb-14">Soy Mohit</h1>
           <div className="flex flex-col justify-center">
             <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
-              {description}
+              -Cosmology Stan
             </p>
-            {/* <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
+            <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
               - Full Stack Developer
             </p>
             <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
               - Rational Thinker
-            </p> */}
+            </p>
           </div>
           <div className="flex flex-row my-20 justify-start items-center mx-auto sm:mx-0">
             <Link href="https://www.github.com/Mohit-Aasirwal" target="_blank">
