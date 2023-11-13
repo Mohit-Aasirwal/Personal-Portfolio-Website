@@ -23,7 +23,7 @@ export default function Home() {
       <Projects />
       <OpenSource />
       <Achievements />
-      <Endorsements />
+      {/* <Endorsements /> */}
       <Resume />
       <Footer />
     </div>
