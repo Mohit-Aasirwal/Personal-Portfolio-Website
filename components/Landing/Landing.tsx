@@ -11,12 +11,18 @@ import Setup from "../../assets/microinteractions/sphere";
 import { gsap } from "gsap";
 import { useEffect, useState } from "react";
 import axios from "axios";
+import { useFetch } from "../../hooks/useFetch";
 
 const Landing = () => {
   const [name, setName] = useState(null);
   const [description, setDescription] = useState(null);
   const [image, setImage] = useState(null);
-
+  // // console.log(description);
+  // const { data, loading } = useFetch("http://localhost:1337/api/Name");
+  // if (!loading) {
+  //   console.log(data.attributes.Name);
+  // }
+  
   useEffect(() => {
     // Define the URL you want to make a GET request to
     const url1 = "http://localhost:1337/api/Name";
@@ -27,7 +33,7 @@ const Landing = () => {
       .get(url1)
       .then((response) => {
         // Handle successful response
-        console.log(response.data.data.attributes.Name);
+        // console.log(response.data.data.attributes.Name);
         setName(response.data.data.attributes.Name);
       })
       .catch((error) => {
@@ -38,7 +44,7 @@ const Landing = () => {
       .get(url2)
       .then((response) => {
         // Handle successful response
-        console.log(response.data.data.attributes.profile_descriptions);
+        // console.log(response.data.data.attributes.profile_descriptions);
         setDescription(response.data.data.attributes.profile_descriptions);
       })
       .catch((error) => {
@@ -108,7 +114,9 @@ const Landing = () => {
             className={`mx-72 md:relative md:top-10 md:left-40 md:mx-0 z-10`}
           />
           <h1 className="font-['Itim']  font-light text-6xl">Hola!</h1>
-          <h1 className="font-['Itim'] font-light text-6xl mb-14">Soy Mohit</h1>
+          <h1 className="font-['Itim'] font-light text-6xl mb-14">
+            Soy {name}
+          </h1>
           <div className="flex flex-col justify-center">
             <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">
               -Cosmology Stan
