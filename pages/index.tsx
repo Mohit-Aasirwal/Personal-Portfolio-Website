@@ -14,7 +14,7 @@ import Drawer from "../components/Navbar/Drawer";
 
 export default function Home() {
   return (
-    <div className="select-none">
+    <div className="select-none text-white">
       <Navbar />
       <Drawer />
       <Landing />
