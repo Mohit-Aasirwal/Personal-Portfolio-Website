@@ -22,7 +22,7 @@ const Landing = () => {
   // if (!loading) {
   //   console.log(data.attributes.Name);
   // }
-  
+
   useEffect(() => {
     // Define the URL you want to make a GET request to
     const url1 = "http://localhost:1337/api/Name";
@@ -115,7 +115,7 @@ const Landing = () => {
           />
           <h1 className="font-['Itim']  font-light text-6xl">Hola!</h1>
           <h1 className="font-['Itim'] font-light text-6xl mb-14">
-            Soy {name}
+            Soy {name} Mohit Aasirwal
           </h1>
           <div className="flex flex-col justify-center">
             <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">

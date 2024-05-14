@@ -9,7 +9,7 @@ const solidity = () => {
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
     >
-      <g clip-path="url(#clip0_53_32)">
+      <g clipPath="url(#clip0_53_32)">
         <path
           opacity="0.45"
           d="M27.6797 0.00134277L18.4492 16.288H0L9.22352 0.00134277H27.6797Z"
