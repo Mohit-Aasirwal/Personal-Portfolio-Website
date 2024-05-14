@@ -10,6 +10,7 @@ const nextConfig = {
       "media1.giphy.com",
       "media4.giphy.com",
       "media.tenor.com",
+      "avatars.githubusercontent.com",
     ],
   },
 };

@@ -6,23 +6,23 @@ import Slice from "./Slice";
 const data = [
   {
     description:
-      "Received MMVY for consequently four years of study in IET-DAVV",
+      "Selected as top 100 fellows under prestigious XROS fellowship organized by Meta, NeGD, Government of India among 10,000 applicants.",
   },
   {
     description:
-      "Received MMVY for consequently four years of study in IET-DAVV",
+      "Participated in 15+ Hackathons Globally including in-person hackathons at IIT-Bombay, NIT Surat etc.",
   },
   {
     description:
-      "Received MMVY for consequently four years of study in IET-DAVV",
+      "Successfully led a Tech-fest in my college. i.e. Invento IET-DAVV with conducting all major activities at a 1000+ footfall.",
   },
   {
     description:
-      "Received MMVY for consequently four years of study in IET-DAVV",
+      "Developed 2 major software for university, DAVV Admin and IETians Diary with 1000+ userbase.",
   },
   {
     description:
-      "Received MMVY for consequently four years of study in IET-DAVV",
+      "Founded a SaaS agency named Ledgerchirp, which works in providing services in web development, application development and blockchain.",
   },
 ];
 

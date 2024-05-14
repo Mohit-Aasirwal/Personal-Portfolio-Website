@@ -5,48 +5,67 @@ import Modal from "./Modal";
 
 const data = [
   {
+    name: "DAVV Admin",
+    image: "/davv-admin.png",
+    link: "https://davv-admin.vercel.app",
+    description:
+      "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
+    name: "IETians Diary",
+    image: "/ietians-diary.png",
+    link: "https://github.com/LedgerChirp/ietians-diary",
+    description:
+      "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
+    name: "Finsure",
+    image: "/finsure.png",
+    link: "https://github.com/LedgerChirp/moi-flight-insurance",
+    description:
+    "dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem a lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about ",
+  },
+  {
+    name: "Remotify",
+    image: "/remotify.png",
+    link: "",
+    description:
+    "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
+    name: "LedgerChirp",
+    image: "/ledgerchirp.png",
+    link: "https://ledgerchirp.vercel.app",
+    description:
+    "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
+    name: "E-Cell IET-DAVV",
+    image: "/ecell.png",
+    link: "https://ecellietdavv.in",
+    description:
+    "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
+    name: "Feedbox Club Website",
+    image: "/feedbox.png",
+    link: "https://clubfeedbox.vercel.app",
+    description:
+    "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
+    name: "Voila",
+    image: "/voila.png",
+    link: "https://getfromvoila.vercel.app",
+    description:
+    "lorem My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem ak",
+  },
+  {
     name: "Portfolio Website",
-    image:
-      "https://media0.giphy.com/media/KtiaZUcRgPuKF7TnNt/giphy.gif?cid=ecf05e47ed6t4kgn99bj7de2wj4nv87t1fruk5iztsvqit1h&ep=v1_gifs_gifId&rid=giphy.gif&ct=g",
-    link: "https://techie.design",
+    image: "/portfolio.png",
+    link: "https://mohitaasirwal.tech",
     description:
       "My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye  dhfuahe goeiah efieh My portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd kdjf dkjfs dkjdi kdifhe kdgua ,egioa w engiehaye mifaye dhfuahe goeiah efiehMy portfolio website that contains my skills and what I'm passionate about lorem ipsum dolor sit amet lorem akd ",
-  },
-  {
-    name: "",
-    image: "",
-    link: "",
-    description: "",
-  },
-  {
-    name: "",
-    image: "",
-    link: "",
-    description: "",
-  },
-  {
-    name: "",
-    image: "",
-    link: "",
-    description: "",
-  },
-  {
-    name: "",
-    image: "",
-    link: "",
-    description: "",
-  },
-  {
-    name: "",
-    image: "",
-    link: "",
-    description: "",
-  },
-  {
-    name: "",
-    image: "",
-    link: "",
-    description: "",
   },
 ];
 

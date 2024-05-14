@@ -84,7 +84,7 @@ const Landing = () => {
           <Image
             priority
             src={
-              "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExYWh1MG9lYTQ4Mjc4azZ1aGZ3cGV6eHFtaHdlcm82ZGFzYTI1eWo4cCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/ffn7MSNzpV3L02IYsB/giphy.gif"
+              "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGEwaGFyOXVjMzdpMjRjdDdwaXhyZGI3ZXc4NTB2ODB6a2VkZmcxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cmegx6SssTKmEFEcwj/giphy.gif"
             }
             alt="earth"
             width={400}
@@ -115,7 +115,7 @@ const Landing = () => {
           />
           <h1 className="font-['Itim']  font-light text-6xl">Hola!</h1>
           <h1 className="font-['Itim'] font-light text-6xl mb-14">
-            Soy {name} Mohit Aasirwal
+            Soy {name} Mohit
           </h1>
           <div className="flex flex-col justify-center">
             <p className="leading-loose font-normal text-greyish font-['Inder'] text-xl">

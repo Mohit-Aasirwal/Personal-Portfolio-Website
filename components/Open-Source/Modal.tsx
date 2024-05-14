@@ -26,10 +26,10 @@ const Modal = ({ name, image, link, description }: props) => {
       >
         <Image
           src={image}
-          width={100}
-          height={100}
+          width={1000}
+          height={1000}
           alt="image"
-          className="w-fit h-fit rounded-xl"
+          className="w-full h-full object-cover rounded-xl"
         />
       </div>
       {open && (
@@ -57,8 +57,8 @@ const Modal = ({ name, image, link, description }: props) => {
                 <Image
                   src={image}
                   alt="images"
-                  width={100}
-                  height={100}
+                  width={1000}
+                  height={1000}
                   className="w-full rounded-lg drop-shadow-lg"
                 />
               </div>

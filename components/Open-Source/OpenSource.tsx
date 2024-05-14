@@ -9,52 +9,52 @@ const data = [
     name: "OrcaSound",
     description:
       "I've done research on whales and done some essential engineering work in orcasound in the year 2023 and 2022. It is one of my first open source contributions and ",
-    image:
-      "https://media2.giphy.com/media/ihMRYa5ULUGOJsLntS/giphy.gif?cid=ecf05e470t06bq2xsp67szb8le5km1dhluweoqb66isk82ym&ep=v1_gifs_related&rid=giphy.gif&ct=g",
+    image: "https://avatars.githubusercontent.com/u/29990731?s=200&v=4",
     link: "https://www.orcasound.com",
   },
   {
-    name: "",
+    name: "OpenAstronomy",
+    description:
+      "I've done research on whales and done some essential engineering work in orcasound in the year 2023 and 2022. It is one of my first open source contributions and",
+    image: "/openastronomy.png",
+    link: "",
+  },
+  {
+    name: "Alby",
+    description: "",
+    image: "https://avatars.githubusercontent.com/u/90630635?s=200&v=4",
+    link: "",
+  },
+  {
+    name: "Motion Design",
     description: "",
     image: "",
     link: "",
   },
   {
-    name: "",
+    name: "LinkFree",
     description: "",
     image: "",
     link: "",
   },
-  {
-    name: "",
-    description: "",
-    image: "",
-    link: "",
-  },
-  {
-    name: "",
-    description: "",
-    image: "",
-    link: "",
-  },
-  {
-    name: "",
-    description: "",
-    image: "",
-    link: "",
-  },
-  {
-    name: "",
-    description: "",
-    image: "",
-    link: "",
-  },
-  {
-    name: "",
-    description: "",
-    image: "",
-    link: "",
-  },
+  // {
+  //   name: "",
+  //   description: "",
+  //   image: "",
+  //   link: "",
+  // },
+  // {
+  //   name: "",
+  //   description: "",
+  //   image: "",
+  //   link: "",
+  // },
+  // {
+  //   name: "",
+  //   description: "",
+  //   image: "",
+  //   link: "",
+  // },
 ];
 
 const OpenSource = () => {
