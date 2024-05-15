@@ -11,7 +11,6 @@ import Footer from "../components/Footer/Footer";
 import Drawer from "../components/Navbar/Drawer";
 import MyDocument from "../components/Resume/PDF";
 
-
 //specialdiv properties are mentioned in globals.css
 
 export default function Home() {
@@ -27,7 +26,6 @@ export default function Home() {
       <Achievements />
       {/* <Endorsements /> */}
       <Resume />
-      
       <Footer />
     </div>
   );

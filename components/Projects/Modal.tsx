@@ -48,9 +48,11 @@ const Modal = ({ name, image, link, description }: props) => {
             </div>
             <div className="flex md:flex-row flex-col justify-between md:ml-10 mx-5 md:mx-0">
               <div className="md:w-1/2 h-fit flex py-5 text-left flex-col justify-start items-start space-y-10">
-                <p className="">{description}</p>
+                <p className="font-light text-lg">{description}</p>
                 <button className="text-black bg-cyan-400 hover:bg-cyan-300 px-3 py-2 rounded-xl">
-                  <Link href={link}>More on This!</Link>
+                  <Link href={link} target="_blank">
+                    More on This!
+                  </Link>
                 </button>
               </div>
               <div className="md:w-1/2 md:pb-10 md:px-10 flex justify-center items-center">

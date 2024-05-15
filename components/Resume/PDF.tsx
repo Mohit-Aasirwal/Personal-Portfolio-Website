@@ -26,8 +26,8 @@ const MyDocument = () => {
         height="100%"
       >
         <p>
-          Alternative text - include a link{" "}
-          <a href="http://africau.edu/images/default/sample.pdf">to the PDF!</a>
+          In case of invisibility, click on this link{" "}
+          <a href="/resume.pdf">to the PDF!</a>
         </p>
       </object>
     </div>

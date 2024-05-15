@@ -37,24 +37,6 @@ const data = [
     image: "",
     link: "",
   },
-  // {
-  //   name: "",
-  //   description: "",
-  //   image: "",
-  //   link: "",
-  // },
-  // {
-  //   name: "",
-  //   description: "",
-  //   image: "",
-  //   link: "",
-  // },
-  // {
-  //   name: "",
-  //   description: "",
-  //   image: "",
-  //   link: "",
-  // },
 ];
 
 const OpenSource = () => {
