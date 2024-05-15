@@ -8,34 +8,37 @@ const data = [
   {
     name: "OrcaSound",
     description:
-      "I've done research on whales and done some essential engineering work in orcasound in the year 2023 and 2022. It is one of my first open source contributions and ",
+      "I've done research on whales and done some essential engineering work in orcasound in the year 2023 and 2022. It is one of my first open source contributions. I'm active in the organization till now and contributing to it.",
     image: "https://avatars.githubusercontent.com/u/29990731?s=200&v=4",
     link: "https://www.orcasound.com",
   },
   {
     name: "OpenAstronomy",
     description:
-      "I've done research on whales and done some essential engineering work in orcasound in the year 2023 and 2022. It is one of my first open source contributions and",
+      "I've contributed to GNUastro and Radis in OpenAstronomy. My contributions include research and project discussions on the GNUastro's cli tool and in Radis I've contributed to their plotting portal in terms of frontend enhancements and improvements. I've also applied for GSoC 2k23 under Radis but eventually the project was not got selected.",
     image: "/openastronomy.png",
-    link: "",
+    link: "https://www.openastonomy.org",
   },
   {
     name: "Alby",
-    description: "",
+    description:
+      "Alby is a lightning wallet for bitcoin. I've contributed in their website for UI fixes and improvements. Unfortunately, the website was scraped off and made from the beginning but my contributions were accepted at that time.",
     image: "https://avatars.githubusercontent.com/u/90630635?s=200&v=4",
-    link: "",
+    link: "https://getalby.com",
   },
   {
     name: "Motion Design",
-    description: "",
-    image: "",
-    link: "",
+    description:
+      "I worked as a Frontend Developer in Motion Design and Play during my XROS fellowship. It was an open source project that focuses on running metaverse. The metaverse was developed with BabylonJS, NextJS and TailwindCSS.",
+    image: "/mdp.png",
+    link: "https://motiondesignandplay.com",
   },
   {
     name: "LinkFree",
-    description: "",
-    image: "",
-    link: "",
+    description:
+      "LinkFree is a project that is availing users to make their own link portfolio but it is open source and doesn't charge any money from users for making their link portfolio in different themes. I've contributed a new theme named space theme in the repository.",
+    image: "/linkfree.png",
+    link: "https://github.com/MichaelBarney/LinkFree/tree/master/Templates/Space%20Theme",
   },
 ];
 
