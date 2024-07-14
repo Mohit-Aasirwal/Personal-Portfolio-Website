@@ -27,7 +27,7 @@ const MyDocument = () => {
       >
         <p>
           In case of invisibility, click on this link{" "}
-          <a href="/resume.pdf">to the PDF!</a>
+          <a href="/resume.pdf" className="text-blue-600">to the PDF!</a>
         </p>
       </object>
     </div>
