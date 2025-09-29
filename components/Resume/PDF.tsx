@@ -20,14 +20,16 @@ const MyDocument = () => {
   return (
     <div className="h-screen mt-10">
       <object
-        data="/resume.pdf"
+        data="/resume-mohit-august.pdf"
         type="application/pdf"
         width="100%"
         height="100%"
       >
         <p>
           In case of invisibility, click on this link{" "}
-          <a href="/resume.pdf" className="text-blue-600">to the PDF!</a>
+          <a href="/resume-mohit-august.pdf" className="text-blue-600">
+            to the PDF!
+          </a>
         </p>
       </object>
     </div>

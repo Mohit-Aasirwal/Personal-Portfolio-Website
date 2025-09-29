@@ -8,7 +8,7 @@ const About = () => {
   return (
     <div
       id="About"
-      className="flex h-fit md:h-screen flex-row bg-secondaryblack"
+      className="flex py-8 h-fit md:h-screen flex-row bg-secondaryblack"
     >
       <div className="md:w-2/3 my-20 flex flex-col lg:my-auto lg:space-y-5 xl:space-y-10 ">
         <div className="md:flex md:justify-center md:items-center md:mb-16">

@@ -84,7 +84,7 @@ const Landing = () => {
           <Image
             priority
             src={
-              "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbGEwaGFyOXVjMzdpMjRjdDdwaXhyZGI3ZXc4NTB2ODB6a2VkZmcxYSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cmegx6SssTKmEFEcwj/giphy.gif"
+              "https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2ZweWhjaTB3ejRxZnAwajJnZThuZzQxMTdqM3kzM2RjbGRtcDBsMSZlcD12MV9naWZzX3NlYXJjaCZjdD1n/xT39CTrFW4nHLdBPpu/giphy.webp"
             }
             alt="earth"
             width={400}
@@ -133,7 +133,7 @@ const Landing = () => {
               <Github
                 width={50}
                 height={50}
-                className={`mr-5 hover:-translate-y-2 cursor-pointer`}
+                className={`mr-5 transition duration-200 hover:-translate-y-2 cursor-pointer`}
               />
             </Link>
             <Link
@@ -143,14 +143,14 @@ const Landing = () => {
               <LinkedIn
                 width={50}
                 height={50}
-                className={`mx-5 hover:-translate-y-2 cursor-pointer`}
+                className={`mx-5 transition duration-200 hover:-translate-y-2 cursor-pointer`}
               />
             </Link>
             <Link href="https://www.twitter.com/AasirwalMohit" target="_blank">
               <Twitter
                 width={50}
                 height={50}
-                className={`mx-5 hover:-translate-y-2 cursor-pointer`}
+                className={`mx-5 transition duration-200 hover:-translate-y-2 cursor-pointer`}
               />
             </Link>
           </div>

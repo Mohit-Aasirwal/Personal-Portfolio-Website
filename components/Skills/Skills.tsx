@@ -54,9 +54,9 @@ const Skills = () => {
         <div className="md:flex md:justify-between md:items-center grid grid-cols-4 gap-10">
           <Next />
           <Youtube />
-          <Premiere />
-          <Illustrator />
-          <AfterEffects />
+          {/* <Premiere /> */}
+          {/* <Illustrator /> */}
+          {/* <AfterEffects /> */}
           <Figma />
           <Sketch />
           <SASS />
@@ -76,7 +76,7 @@ const Skills = () => {
           <Nginx />
           <Jquery />
         </div>
-        <h4 className="text-white md:text-2xl">
+        <h4 className="text-white text-center mx-auto md:text-2xl">
           and learning something new everyday...
         </h4>
       </div>

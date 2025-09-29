@@ -6,7 +6,7 @@ interface props {
 
 const Slice = ({ description }: props) => {
   return (
-    <div className="bg-gradient-to-tr from-gray-700 to to-gray-800 backdrop-blur-lg rounded-xl my-3 w-fit md:px-10 mr-10 md:mr-0 h-20 items-center flex ">
+    <div className="bg-gradient-to-tr from-gray-700 to-gray-800 backdrop-blur-lg rounded-xl my-3 w-fit md:px-10 mr-10 md:mr-0 h-24 items-center flex ">
       <Image
         src={"/medal.png"}
         width={100}
@@ -14,7 +14,7 @@ const Slice = ({ description }: props) => {
         alt="medal"
         className="md:w-20 md:h-20"
       />
-      <h1 className=" text-white md:text-xl text-sm ">{description}</h1>
+      <h1 className=" text-white md:text-lg text-sm">{description}</h1>
     </div>
   );
 };

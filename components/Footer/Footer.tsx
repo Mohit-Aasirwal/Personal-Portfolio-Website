@@ -6,11 +6,14 @@ import Twitter from "../../assets/SVG/twitter";
 
 const Footer = () => {
   return (
-    <div id="Footer" className="flex bg-darkblack mt-10 flex-col w-full h-fit">
+    <div
+      id="Footer"
+      className="flex pt-20 bg-darkblack mt-10 flex-col w-full h-fit"
+    >
       <div className="items-center justify-center flex flex-row">
         <Link
           href="https://www.github.com/Mohit-Aasirwal"
-          className="mx-10"
+          className="mx-10 hover:-translate-y-2 transition duration-200"
           target={"_blank"}
         >
           <Github height={50} width={50} className={`w-10 h-10`} />
@@ -18,14 +21,14 @@ const Footer = () => {
         <Link
           href="https://www.linkedin.com/in/mohit-aasirwal-478466223"
           target={"_blank"}
-          className="mx-10"
+          className="mx-10 hover:-translate-y-2 transition duration-200"
         >
           <Linkedin height={50} width={50} className={`w-10 h-10`} />
         </Link>
         <Link
           href="https://www.twitter.com/AasirwalMohit"
           target={"_blank"}
-          className="mx-10"
+          className="mx-10 hover:-translate-y-2 transition duration-200"
         >
           <Twitter height={50} width={50} className={`w-10 h-10`} />
         </Link>

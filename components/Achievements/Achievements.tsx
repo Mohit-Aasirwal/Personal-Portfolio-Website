@@ -10,7 +10,7 @@ const data = [
   },
   {
     description:
-      "Participated in 15+ Hackathons Globally including in-person hackathons at IIT-Bombay, NIT Surat etc.",
+      "Participated in 20+ Hackathons Globally including in-person hackathons at IIT-Bombay, NIT Surat etc.",
   },
   {
     description:
@@ -22,7 +22,7 @@ const data = [
   },
   {
     description:
-      "Founded a SaaS agency named Ledgerchirp, which works in providing services in web development, application development and blockchain.",
+      "Worked as a Full Stack Developer for 8+ startups and firms, helped in developing and scaling the systems. Have overall combined experience of 2+ years in making successful web applications.",
   },
 ];
 

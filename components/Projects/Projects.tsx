@@ -5,6 +5,16 @@ import Modal from "./Modal";
 
 const data = [
   {
+    name: "Atmos Protocol",
+    image: "/atmos.jpeg",
+    link: "https://atmos.ag",
+    description:
+      "Worked as a Full Stack Developer for the organization primarily working on Next.js, Supra L1 chain, and docusaurus significantly contributing to frontend. Helped developing the mainnet application and certain pages in the overall application. Made landing page and documentation website. Utilized supra SDK for integrations. Also learnt about smart contract development in move programming language",
+  },
+  // {},
+  // {},
+  // {},
+  {
     name: "DAVV Admin",
     image: "/davv-admin.png",
     link: "https://davv-admin.vercel.app",
